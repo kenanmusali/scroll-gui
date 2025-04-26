@@ -21,7 +21,7 @@ scrollbars with a sleek and clean design. Perfect for projects that prioritize s
 
 ## Usage
 
-![How to use](./public/usage.pngp)
+![How to use](./public/usage.png)
 
 ## Customize
 
