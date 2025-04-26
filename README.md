@@ -7,7 +7,6 @@ scrollbars with a sleek and clean design. Perfect for projects that prioritize s
 
 ![React Custom Scrollbar GUI](./public/view.png)
 
-
 ## Features
 
 - Minimalist and modern scrollbar design
@@ -21,17 +20,50 @@ scrollbars with a sleek and clean design. Perfect for projects that prioritize s
 
 ## Usage
 
-![How to use](./public/usage.png)
+Below is a simple example of how to implement the `ScrollbarGui` component into your React app.
 
-## Customize
+### Basic Example
 
-![How to use](./public/customize.png)
+1. **Install the package** via npm:
 
-## Installation
+    ```bash
+    npm install scrollbar-gui-react
+    ```
 
-You can install the package via npm:
+2. **Import and Use the Component** in your React application:
 
-```bash
-npm install scrollbar-gui-react
+    ```jsx
+    import React from 'react';
+    import ScrollbarGui from 'scrollbar-gui-react';  // Import the ScrollbarGui component
 
+    const App = () => {
+      return (
+        <div style={{ width: '100%', height: '500px', overflow: 'hidden' }}>
+          <ScrollbarGui>
+            <div style={{ height: '2000px' }}>
+              {/* Your content goes here */}
+            </div>
+          </ScrollbarGui>
+        </div>
+      );
+    };
 
+    export default App;
+    ```
+
+### Custom CSS Styling
+
+You can customize the styles of the scrollbar by modifying the `scrollbar-gui-react` component. Here’s an example of custom styling:
+
+```css
+/* Custom CSS */
+.scrollbar-gui .scrollbar {
+  background-color: #d1d1d1;  
+  border-radius: 10px;
+}
+
+.scrollbar-gui .thumb {
+  background-color: #333;  /* Dark thumb color */
+  border-radius: 5px;
+  width: 12px;  /* Thicker scrollbar thumb */
+}
