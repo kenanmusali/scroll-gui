@@ -5,7 +5,7 @@ scrollbars with a sleek and clean design. Perfect for projects that prioritize s
 
 ## View
 
-![React Custom Scrollbar GUI](./public/view.png)
+![React Custom Scrollbar GUI](./public/View.png)
 
 ## Features
 
@@ -57,13 +57,60 @@ You can customize the styles of the scrollbar by modifying the `scrollbar-gui-re
 
 ```css
 /* Custom CSS */
-.scrollbar-gui .scrollbar {
-  background-color: #d1d1d1;  
-  border-radius: 10px;
+.thumb-y,
+.thumb-x {
+    background-color: rgba(192, 192, 192, 0.6);
 }
 
-.scrollbar-gui .thumb {
-  background-color: #333;  /* Dark thumb color */
-  border-radius: 5px;
-  width: 12px;  /* Thicker scrollbar thumb */
+.thumb-y.dragging,
+.thumb-x.dragging {
+    background-color: #c0c0c0;
+}
+
+.thumb-y.hover,
+.thumb-x.hover {
+    background-color: #c0c0c0;
+}
+
+/* Custom Spacing */
+.thumb-x{
+    margin-bottom: 5px; 
+}
+    
+.thumb-y {
+    margin-right: 5px;
+}
+
+/* Custom Height */
+/* Scroll Area */
+.scrollbar-x {
+      height: 12px;
+}
+.scrollbar-y {
+     width: 12px;
+}
+
+/* Scroll Unactive */
+.thumb-x{
+     height: 2px;
+}
+    
+.thumb-y {
+      width: 2px;
+}
+
+/* Scroll Active */
+.scrollbar-y:hover .thumb-y,
+.scrollbar-y.dragging .thumb-y,
+.thumb-y:hover,
+.thumb-y.dragging {
+  width: 6px  ;
+
+}
+
+.scrollbar-x:hover .thumb-x,
+.scrollbar-x.dragging .thumb-x,
+.thumb-x:hover,
+.thumb-x.dragging {
+  height: 6px ;
 }
