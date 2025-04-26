@@ -5,7 +5,7 @@ scrollbars with a sleek and clean design. Perfect for projects that prioritize s
 
 ## View
 
-![React Custom Scrollbar GUI](https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/gd497o3ezyx7trrnowz3.webp)
+![React Custom Scrollbar GUI](./public/view.png)
 
 
 ## Features
@@ -21,11 +21,11 @@ scrollbars with a sleek and clean design. Perfect for projects that prioritize s
 
 ## Usage
 
-![How to use](https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/jweiz548wg3upjmb8xna.webp)
+![How to use](./public/usage.pngp)
 
 ## Customize
 
-![How to use](https://res.cloudinary.com/dtz0urit6/image/upload/f_webp,q_auto/cloudinary-tools-uploads/tvmzezhr6errqs628ncv.webp)
+![How to use](./public/customize.png)
 
 ## Installation
 
